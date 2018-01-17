@@ -1,0 +1,36 @@
+Kvalitetsregistre: variabelbibliotek (metadata) og informasjonsutveksling
+========================================================
+author: Kevin Thon, Are Edvardsen
+date: 19. januar 2018
+autosize: true
+transition: zoom
+
+Variabelbiblioteket nåbilde
+========================================================
+- Gjenskapning av de nasjonale medisinske kvalitetsregistrenes innregistreringsløsninger
+- Skjemaer representeres som OpenEHR-templater i NIKT sin CKM, forvaltninsverktøyet for arketyper
+- Spesialutviklet søkefunksjonalitet for søk i variabler (metadata), også på tvers av registre.
+- Registre i oppstartsfasen kan se hvordan andre registre har definert variabler
+- Reint deskriptiv, inneholder ingen anbefalinger
+- Ingen kobling mot nasjonale kodeverk og terminologi
+
+Variabelbiblioteket 2.0 ønsker
+========================================================
+- Oppdatering må gjøres automatisk basert på strukturerte variabellister
+- Variabler må kunne kobles til relevant kodeverk og terminologi
+- Bør understøtte harmonisering av variabler: Anbefalte definisjoner
+- Søkefunksjon på tvers av register
+- Bør ivareta variablenes historikk
+- noe mer
+
+Variabelbiblioteket 2.0 spin-off
+========================================================
+incremental: true
+
+- Det ansees som relevant og formålstjenelig å se en ny utgave av
+variabelbiblioteket i sammenheng med utveksling av registerdata mot andre
+systemer (journal, innbyggertjenester, helseanalyseplattform)
+- Da er det et opplagt behov for også å håndtere (standardiserte) kodeverk,
+terminologier og informasjonsmodeller
+- For å oppnå gevinst er det helt nødvendig å sørge for at man mellom systemer
+og mellom system og person oppnår en ENTYDIG "forståelse" av variablenes verdier (felles kodeverk), variablenes betydning (felles terminologi) og i den sammenheng som variablen(e) inngår i (felles informasjonsmodeller)
