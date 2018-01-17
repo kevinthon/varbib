@@ -6,7 +6,7 @@ output: beamer_presentation
 ---
 
 
-Variabelbiblioteket bakgrunn
+Bakgrunn
 ========================================================
 * Prosjekt startet i 2014
 * Manglet oversikt over *hva* som ble registret i de nasjonale medisinske kvalitetsregistrene
@@ -20,19 +20,18 @@ Variabelbiblioteket bakgrunn
     + Røyking: Daglig, Av og til, Aldri
   
 
-  
 
-
-Variabelbiblioteket nåbilde
+Nåbilde
 ========================================================
-- Gjenskapning av de nasjonale medisinske kvalitetsregistrenes innregistreringslÃ¸sninger
+- Gjenskapning av de nasjonale medisinske kvalitetsregistrenes innregistreringsløsninger
 - Skjemaer representeres som OpenEHR-templater i NIKT sin CKM, forvaltninsverktÃ¸yet for arketyper
-- Spesialutviklet sÃ¸kefunksjonalitet for sÃ¸k i variabler (metadata), ogsÃ¥ pÃ¥ tvers av registre.
+- Spesialutviklet søkefunksjonalitet for søk i variabler (metadata), også på tvers av registre.
 - Registre i oppstartsfasen kan se hvordan andre registre har definert variabler
 - Reint deskriptiv, inneholder ingen anbefalinger
 - Ingen kobling mot nasjonale kodeverk og terminologi
 
-Variabelbiblioteket 2.0 Ã¸nsker
+
+Variabelbiblioteket 2.0 Ønsker
 ========================================================
 - Oppdatering må gjøres automatisk basert på strukturerte variabellister
 - Variabler må kunne kobles til relevant kodeverk og terminologi
