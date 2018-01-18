@@ -1,5 +1,5 @@
 ---
-title: "Kvalitetsregistre: variabelbibliotek (metadata) og informasjonsutveksling"
+title: "Redegjørelse for variabelbiblioteket – dagens status og fremtidens behov for metadata fra nasjonale kvalitetsregistre"
 author: "Kevin Thon, Are Edvardsen"
 date: "19 januar 2018"
 output: beamer_presentation
@@ -11,9 +11,9 @@ Bakgrunn
 * Prosjekt startet i 2014
 * Manglet en samlet oversikt over *hva* som ble registret i de nasjonale medisinske kvalitetsregistrene
 * Ønsket å tilgjengeliggjøre registerdata: 
-    + forskning 
-    + styring 
-    + forvaltning
+    + Forskning 
+    + Styring 
+    + Forvaltning
 * Manglet oversikt over *hvordan* data ble registrert:
     + Variabler som er felles for flere registre registreres ulikt
     + Forskjeller både i kategorier og koding
@@ -111,9 +111,9 @@ Aktiviteter
 - Forutsetter at registrene kan levere metadata på en hensiktsmessig form
 - Dette vil kreve tilpasninger fra teknisk leverandør samt innsats fra fagmiljøet
 - Norsk Register for Ryggkirurgi (NKR) skal over på ny teknisk løsning - openqreg.
-- Samarbeider med HRR for å få til en automatisk eksport av variabeldefinisjoner
+- Samarbeider med HDP/HRR for å få til en automatisk eksport av variabeldefinisjoner
 - Fokus på tilrettelegging for forskere
-- Neste steg: 
+- Neste steg: Gjøre metadata tilgjengelig gjennom nasjonal metadataportal
 
 
 <!-- Veien mot automatisert datafangst -->
