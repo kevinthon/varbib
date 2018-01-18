@@ -14,52 +14,116 @@ Bakgrunn
     + forskning 
     + styring 
     + forvaltning
-  
 * Manglet oversikt over *hvordan* data ble registrert:
-    + Røyking: Ja, nei, vet ikke
-    + Røyking: Daglig, Av og til, Aldri
-
-* Forskjeller både i kategorier og koding
-* Kun unntaksvis faglig begrunnede forskjeller
-  
+    + Variabler som er felles for flere registre registreres ulikt
+    + Forskjeller både i kategorier og koding
+    + Kun unntaksvis faglig begrunnede forskjeller
 
 
-Nåbilde
+Variabeldefinisjon
 ========================================================
-- Gjenskapning av de nasjonale medisinske kvalitetsregistrenes innregistreringsløsninger
-- Skjemaer representeres som OpenEHR-templater i NIKT sin CKM, forvaltninsverktøyet for arketyper
+\begin{itemize}
+\item Nasjonalt kvalitetsregister for ryggkirurgi\\
+\includegraphics[width=5.5cm]{Rygg1.png}
+\item Norsk hjerneslagregister\\
+\includegraphics[width=5.5cm]{Hjerneslag1.png}
+\item Hisreg\\
+\includegraphics[width=5.5cm]{Hisreg1.png}
+\end{itemize}
+
+
+Koding
+========================================================
+\begin{itemize}
+\item Nasjonalt kvalitetsregister for ryggkirurgi. Røyker du?\\
+\begin{itemize}
+\item 1: Ja
+\item 0: Nei
+\end{itemize}
+\item Norsk hjerneslagregister. Røykestatus\\
+\begin{itemize}
+\item 0: Aldri
+\item 1: Røyker
+\item 2: Eks røyker
+\item 9: Ukjent
+\end{itemize}
+\item Hisreg. Aktiv Røyker\\
+\begin{itemize}
+\item 1: Røyker nå
+\item 2: Har røkt, men sluttet
+\item 3: Aldri røkt
+\item 4: Ukjent
+\end{itemize}
+\end{itemize}
+
+
+
+Eksempel
+========================================================
+\begin{itemize}
+\item Kodingen er som regel tilfeldig valgt -- IT-utviklere har sjelden grunn til å foretrekke én koding fremfor en annen. \pause
+\item De kan bli kreative:
+\begin{itemize}
+\item Antall kurer gitt
+\begin{itemize}
+\item 1: 8
+\item 2: 7
+\item 3: 6
+\item 4: 5
+\item 5: 4
+\item 6: 3
+\item 7: 2
+\item 8: Flere enn 8
+\item 99: Ukjent
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
+
+
+
+Variabelbiblioteket
+========================================================
+> - Gjenskapning av de nasjonale medisinske kvalitetsregistrenes innregistreringsløsninger
+- Skjemaer representeres som OpenEHR-templater i NIKT sin CKM, forvaltningsverktøyet for arketyper
 - Spesialutviklet søkefunksjonalitet for søk i variabler (metadata), også på tvers av registre.
 - Registre i oppstartsfasen kan se hvordan andre registre har definert variabler
 - Reint deskriptiv, inneholder ingen anbefalinger
 - Ingen kobling mot nasjonale kodeverk og terminologi
+- <http://www.variabelbiblioteket.no>
 
 
-Variabelbiblioteket 2.0 Ønsker
+Variabelbiblioteket 2.0: Ønsker til nasjonal metadataportal
 ========================================================
-- Oppdatering må gjøres automatisk basert på strukturerte variabellister
+> - Opprettelsen av en nasjonal metadataportal er en målsetning i helsedataprogrammet
+> - Oppdatering må gjøres automatisk basert på strukturerte variabellister
 - Variabler må kunne kobles til relevant kodeverk og terminologi
 - Bør understøtte harmonisering av variabler: Anbefalte definisjoner
 - Søkefunksjon på tvers av register
 - Bør ivareta variablenes historikk
-
-
-Variabelbiblioteket 2.0 spin-off
-========================================================
-- Det ansees som relevant og formålstjenelig å se en ny utgave av
-variabelbiblioteket i sammenheng med utveksling av registerdata mot andre
-systemer (journal, innbyggertjenester, helseanalyseplattform)
-- Da er det et opplagt behov for også å håndtere (standardiserte) kodeverk,
-terminologier og informasjonsmodeller
-- For å oppnå gevinst er det helt nødvendig å sørge for at man mellom systemer
-og mellom system og person oppnår en ENTYDIG "forståelse" av variablenes verdier (felles kodeverk), variablenes betydning (felles terminologi) og i den sammenheng som variablen(e) inngår i (felles informasjonsmodeller)
+- Bør understøtte utveksling av registerdata mot andre systemer (journal, innbyggertjenester, helseanalyseplattform)
+- Behov for også å håndtere (standardiserte) kodeverk, terminologier og informasjonsmodeller
 
 
 Aktiviteter
 ========================================================
+> - Per i dag vil neppe registrene kunne levere metadata til en nasjonal metadataportal
+- Forutsetter at registrene kan levere metadata på en hensiktsmessig form
+- Dette vil kreve tilpasninger fra teknisk leverandør samt innsats fra fagmiljøet
 - Norsk Register for Ryggkirurgi (NKR) skal over på ny teknisk løsning - openqreg.
-- Samarbeider med HRR for å få til en automatisk eksport av variabeldefinisjoner i hensiktsmessig form
+- Samarbeider med HRR for å få til en automatisk eksport av variabeldefinisjoner
 - Fokus på tilrettelegging for forskere
+- Neste steg: 
 
 
+<!-- Veien mot automatisert datafangst -->
+<!-- ======================================================== -->
+<!-- > - Det ansees som relevant og formålstjenelig å se en ny utgave av -->
+<!-- variabelbiblioteket i sammenheng med utveksling av registerdata mot andre -->
+<!-- systemer (journal, innbyggertjenester, helseanalyseplattform) -->
+<!-- - Da er det et opplagt behov for også å håndtere (standardiserte) kodeverk, -->
+<!-- terminologier og informasjonsmodeller -->
+<!-- - For å oppnå gevinst er det helt nødvendig å sørge for at man mellom systemer -->
+<!-- og mellom system og person oppnår en ENTYDIG "forståelse" av variablenes verdier (felles kodeverk), variablenes betydning (felles terminologi) og i den sammenheng som variablen(e) inngår i (felles informasjonsmodeller) -->
 
 
